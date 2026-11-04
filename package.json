@@ -1,0 +1,12 @@
+{
+  "name": "energi-ahorro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sass": "sass --watch scss/estilos.scss:css/estilos.css",
+    "build:css": "sass scss/estilos.scss css/estilos.css --style=expanded"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
